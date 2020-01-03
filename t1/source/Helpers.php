@@ -1,16 +1,16 @@
 <?php
 
+
 /**
  * @param string|null $param
- * @return string
+ * @return mixed
  */
-function site(string $param = null) : string
+function site(string $param = null)
 {
     if ($param && !empty(SITE[$param])){
         return SITE[$param];
-    }else{
-       return SITE["root"];
     }
+       return SITE["root"];
 }
 
 /**
@@ -43,4 +43,13 @@ function flash(string $type = null, string $message = null) : ?string
     }
 
     return null;
+}
+
+/**
+ * @param string $imageUrl
+ * @return string
+ */
+function routeImage(string $imageUrl):string
+{
+    return "https://via.placeholder.com/1200x628/0984e3/FFFFFF?text={$imageUrl}";
 }
