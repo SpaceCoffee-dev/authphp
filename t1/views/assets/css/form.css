@@ -12,14 +12,26 @@
 }
 
 .form {
-    color: #ffffff;
+    color: #8d8d8d;
 }
 
 .form label {
     display: block;
     margin-bottom: 20px;
     width: 100%;
+    position: relative;
 }
+.form label span{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+.form label span img{
+    width: 120%;
+}
+
 
 .form .label_2 {
     display: flex;
@@ -38,19 +50,19 @@
 .form input {
     width: 100%;
     font-size: 1em;
-    color: #ffffff;
+    color: #8d8d8d;
     padding: 15px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
-    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #f5f5f5;
+    background: white;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     outline: none;
+    padding-left: 50px;
 }
 
 .form input:focus {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid #8d8d8d;
 }
 
 .form_actions {
@@ -81,10 +93,12 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin-top: 30px;
-    padding-top: 30px;
-    border-top: 2px solid #888888;
-    color: #ffffff;
+    color: #8d8d8d;
 }
+.form_register_action.cad{
+    grid-template-columns: 2.5fr 1fr;
+}
+
 
 .form_register_action p {
     font-size: 0.875em;

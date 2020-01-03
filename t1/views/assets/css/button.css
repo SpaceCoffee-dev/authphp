@@ -36,6 +36,10 @@
     background: #2e86de;
 }
 
+.btn-blue.cad{
+    max-width: 115px;
+}
+
 .btn-blue:hover {
     background: #54a0ff;
 }
