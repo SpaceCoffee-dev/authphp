@@ -20,7 +20,8 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #4B0EDC, #F56D6D);
+    background: linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*background: gradient(linear, left top, right bottom, #4B0EDC, #F56D6D);*/
 }
 
 .main_content_box {
