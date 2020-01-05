@@ -6,14 +6,17 @@
     border: none;
     font-size: 0.9em;
     font-weight: bold;
-    padding: 8px 16px;
+    padding: 8px 8px;
     background: #333333;
     color: #ffffff;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
     transition-duration: 0.3s;
+}
+
+.btn-large{
+    padding: 8px 16px;
 }
 
 .btn-full {

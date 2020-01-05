@@ -9,7 +9,7 @@ define("SITE",[
     "desc" => "Aprenda a construir uma aplicação de autenticação em MVC com PHP do Jeito Certo!",
     "domain" => "localauth.com",
     "locale" => "pt_BR",
-    "root" => "http://localhost/codigoaberto/t1"
+    "root" => "http://localhost/authphp/t1"
 ]);
 
 /*

@@ -1,8 +1,8 @@
 <?php $v->layout("theme/_theme"); ?>
 
-<div class="main_content_box">
-    <div class="login">
-        <form class="form" action="<?= $router->route("auth.forget"); ?>" method="post" autocomplete="off">
+<div class="main_content_box reset">
+    <div class="login reset">
+        <form class="form reset" action="<?= $router->route("auth.forget"); ?>" method="post" autocomplete="off">
             <div class="login_form_callback">
                 <?= flash(); ?>
             </div>
