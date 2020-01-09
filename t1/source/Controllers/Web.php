@@ -43,7 +43,7 @@ class Web extends Controller
         $form_user->email = null;
 
 
-        echo $this->view->render("theme/register",[
+        echo $this->view->render("theme/dashboard2",[
             "head" => $head,
             "user" => $form_user
         ]);
@@ -51,16 +51,16 @@ class Web extends Controller
 
     public function forget():void
     {
-        
+
     }
 
     public function reset():void
     {
-        
+
     }
 
     public function error():void
     {
-        
+
     }
 }

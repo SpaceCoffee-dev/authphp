@@ -76,7 +76,7 @@
 .login.reg h3{
     width: 80%;
     color: white;
-    background: linear-gradient(50deg, #135058, #4fe9ff);
+    background: #10ac84;
     font-weight: lighter;
     padding: 15px;
     font-size: 100%;
@@ -235,10 +235,13 @@
  */
 .page {
     color: #8d8d8d;
-    width: 400px;
+    width: 100%;
     margin: auto;
     max-width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .page p {
@@ -252,4 +255,113 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 50%;
     margin-bottom: 20px;
+}
+
+/* DASHBOARD PAINEL */
+
+.dashboard_box{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* MENU SIDEBAR */
+
+.menu_sidebar{
+  background: #2A58AD;
+  width: 18%;
+  height: 100%;
+}
+
+.info_sidebar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.img_perfil{
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img_perfil img{
+  width: 100%;
+  height: 100%;
+}
+
+.name_perfil{
+  width: 100%;
+}
+
+.name_perfil p{
+  margin-top: 5px;
+  color: white;
+}
+
+.name_perfil span{
+  font-size: 90%;
+  color: #3DA9EB;
+}
+
+.config_perfil{
+  width: 100%;
+}
+
+.btn_border_blue{
+  font-size: 60% !important;
+  background: transparent !important;
+  border-radius: 30px !important;
+  padding: 8px 16px !important;
+  border: 1px solid #3DA9EB !important;
+  margin-top: 8px;
+}
+
+.menu{
+  width: 100%;
+  height: calc(100% - 218px);
+  display: flex;
+  justify-content: center;align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu li{
+  width: 100%;
+  height: 25%;
+}
+.menu li a{
+  width: 100%;
+  padding: 29px 0;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 90%;
+  box-sizing: border-box;
+}
+
+.menu li a.active{
+  border-left: 5px solid #3DA9EB;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu li i{
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 200%;
+}
+
+/* CONTENT */
+
+.content{
+  width: 82%;
+  height: 100%;
+  background-color: #EAEEF1;
 }

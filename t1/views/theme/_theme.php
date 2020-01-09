@@ -8,11 +8,12 @@
 
     <?= $head; ?>
 
-    <link rel="stylesheet" href="<?= asset("/css/style.css"); ?>"/>
-    <link rel="stylesheet" href="<?= asset("/css/form.css"); ?>"/>
-    <link rel="stylesheet" href="<?= asset("/css/button.css"); ?>"/>
-    <link rel="stylesheet" href="<?= asset("/css/message.css"); ?>"/>
-    <link rel="stylesheet" href="<?= asset("/css/load.css"); ?>"/>
+    <link rel="stylesheet" href="<?= asset("fonts-icons/line-awesome/css/line-awesome.min.css"); ?>">
+    <link rel="stylesheet" href="<?= asset("css/style.css"); ?>"/>
+    <link rel="stylesheet" href="<?= asset("css/form.css"); ?>"/>
+    <link rel="stylesheet" href="<?= asset("css/button.css"); ?>"/>
+    <link rel="stylesheet" href="<?= asset("css/message.css"); ?>"/>
+    <link rel="stylesheet" href="<?= asset("css/load.css"); ?>"/>
     <link rel="icon" type="image/png" href="<?= asset("/images/favicon.png"); ?>"/>
 </head>
 <body>
