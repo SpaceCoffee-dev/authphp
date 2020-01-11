@@ -43,7 +43,7 @@ class Web extends Controller
         $form_user->email = null;
 
 
-        echo $this->view->render("theme/dashboard2",[
+        echo $this->view->render("theme/register",[
             "head" => $head,
             "user" => $form_user
         ]);

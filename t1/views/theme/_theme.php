@@ -7,14 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <?= $head; ?>
-
-    <link rel="stylesheet" href="<?= asset("fonts-icons/line-awesome/css/line-awesome.min.css"); ?>">
-    <link rel="stylesheet" href="<?= asset("css/style.css"); ?>"/>
-    <link rel="stylesheet" href="<?= asset("css/form.css"); ?>"/>
-    <link rel="stylesheet" href="<?= asset("css/button.css"); ?>"/>
-    <link rel="stylesheet" href="<?= asset("css/message.css"); ?>"/>
-    <link rel="stylesheet" href="<?= asset("css/load.css"); ?>"/>
+    
+    <link rel="stylesheet" href="<?= asset("style.min.css"); ?>"/>
     <link rel="icon" type="image/png" href="<?= asset("/images/favicon.png"); ?>"/>
+    
 </head>
 <body>
 
@@ -29,8 +25,7 @@
     <?= $v->section("content"); ?>
 </main>
 
-<script src="<?= asset("/js/jquery.js"); ?>"></script>
-<script src="<?= asset("/js/jquery-ui.js"); ?>"></script>
+<script src="<?= asset("jquery.min.js"); ?>"></script>
 <?= $v->section("scripts"); ?>
 
 </body>

@@ -9,6 +9,7 @@ use CoffeeCode\Router\Router;
 
 $router = new Router(site());
 $router->namespace("Source\Controllers");
+
 /*
     WEB
 */
@@ -21,6 +22,9 @@ $router->get("/senha/{email}/{forget}", "Web:reset", "web.reset");
 /*
     AUTH
 */
+$router->group(null);
+$router->post("/login", "Auth:login", "auth.login");
+$router->post("/login", "Auth:register", "auth.register");
 
 /*
     AUTH SOCIAL
